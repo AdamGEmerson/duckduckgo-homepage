@@ -1,2 +1,2 @@
 # duckduckgo-homepage
-A recreation of DuckDuckGo's landing page.  A learning exercise. 
+A recreation of DuckDuckGo's landing page.  A HTML/CSS learning exercise. 
