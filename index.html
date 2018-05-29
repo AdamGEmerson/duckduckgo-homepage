@@ -5,8 +5,10 @@
 	<script type="text/javascript">
 		function redirectTo(){
 			var text = document.getElementById('searchterm').value;
-			window.location.href="http://duckduckgo.com/"+text;
-		};
+			window.location="http://duckduckgo.com/"+text;
+			return false;
+
+		}
 	</script>
 </head>
 <body>
@@ -23,10 +25,10 @@
 				<img src="images/logo.png" id="logo"><br>
 				<form class="bar" id="search-bar">
 					<input type="text" name="search-field" id="searchterm">
-					<input type="submit" name="search-icon" value="" onclick="redirectTo();"">
+					<input type="submit" name="search-icon" value="" onclick="redirectTo();">
 				</form>
-
 				The search engine that doesn't track you. <a href="https://duckduckgo.com/about" id="learn">Learn more.</a>
+				
 		</div>
 
 	</div>
